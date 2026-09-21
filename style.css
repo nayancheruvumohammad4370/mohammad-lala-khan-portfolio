@@ -1,6 +1,6 @@
 /* =========================================================
-   MOHAMMAD LALA KHAN - PORTFOLIO
-   Professional Dark Theme
+   MD LALA KHAN - PORTFOLIO
+   Azure Data Engineer | Professional Theme
    ========================================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
@@ -9,21 +9,25 @@
 /* ================= ROOT ================= */
 
 :root {
-    --bg: #080b12;
-    --bg-secondary: #0d111a;
-    --card: #111722;
-    --card-hover: #151d2b;
+    --bg: #0B1220;
+    --bg-secondary: #101A2E;
 
-    --text: #f4f7fb;
-    --text-secondary: #a7b0c0;
-    --text-muted: #717b8f;
+    --card: #111C30;
+    --card-hover: #16243D;
 
-    --primary: #4f8cff;
-    --primary-light: #79a7ff;
-    --secondary: #8b5cf6;
-    --cyan: #22d3ee;
+    --text: #F8FAFC;
+    --text-secondary: #B8C4D6;
+    --text-muted: #7F8DA3;
 
-    --border: rgba(255, 255, 255, 0.08);
+    /* Azure-inspired colors */
+    --primary: #0078D4;
+    --primary-light: #2B9BEF;
+    --secondary: #00A4EF;
+    --cyan: #38BDF8;
+
+    --success: #22C55E;
+
+    --border: rgba(148, 163, 184, 0.14);
 
     --max-width: 1180px;
 
@@ -76,7 +80,7 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #273149;
+    background: #263653;
     border-radius: 20px;
 }
 
@@ -94,7 +98,7 @@ img {
     width: 100%;
     z-index: 1000;
 
-    background: rgba(8, 11, 18, 0.82);
+    background: rgba(11, 18, 32, 0.92);
     backdrop-filter: blur(18px);
 
     border-bottom: 1px solid var(--border);
@@ -114,7 +118,7 @@ img {
 }
 
 
-/* LOGO */
+/* ================= LOGO ================= */
 
 .logo {
     font-size: 27px;
@@ -123,11 +127,11 @@ img {
 }
 
 .logo span {
-    color: var(--primary);
+    color: var(--primary-light);
 }
 
 
-/* NAVIGATION */
+/* ================= NAVIGATION ================= */
 
 nav {
     display: flex;
@@ -160,7 +164,7 @@ nav {
     width: 0;
     height: 2px;
 
-    background: var(--primary);
+    background: var(--primary-light);
 
     transition: var(--transition);
 }
@@ -171,7 +175,7 @@ nav {
 }
 
 
-/* MOBILE MENU */
+/* ================= MOBILE MENU ================= */
 
 .menu-toggle {
     display: none;
@@ -212,7 +216,7 @@ nav {
     top: 80px;
     left: -200px;
 
-    background: rgba(79, 140, 255, 0.13);
+    background: rgba(0, 120, 212, 0.13);
 
     filter: blur(100px);
 
@@ -232,7 +236,7 @@ nav {
     right: -150px;
     bottom: 50px;
 
-    background: rgba(139, 92, 246, 0.12);
+    background: rgba(0, 164, 239, 0.10);
 
     filter: blur(100px);
 
@@ -262,10 +266,10 @@ nav {
 }
 
 
-/* HERO TEXT */
+/* ================= HERO TEXT ================= */
 
 .hero-small {
-    color: var(--primary);
+    color: var(--primary-light);
 
     font-family: "JetBrains Mono", monospace;
 
@@ -299,7 +303,7 @@ nav {
 }
 
 .hero h2 span {
-    color: var(--primary);
+    color: var(--primary-light);
 }
 
 .hero-description {
@@ -313,7 +317,7 @@ nav {
 }
 
 
-/* BUTTONS */
+/* ================= BUTTONS ================= */
 
 .hero-buttons {
     display: flex;
@@ -336,7 +340,7 @@ nav {
 
     padding: 13px 22px;
 
-    border-radius: 9px;
+    border-radius: 8px;
 
     font-size: 14px;
 
@@ -350,7 +354,7 @@ nav {
 
     color: white;
 
-    box-shadow: 0 10px 30px rgba(79, 140, 255, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 120, 212, 0.20);
 }
 
 .primary-btn:hover {
@@ -358,7 +362,7 @@ nav {
 
     background: var(--primary-light);
 
-    box-shadow: 0 15px 35px rgba(79, 140, 255, 0.3);
+    box-shadow: 0 15px 35px rgba(0, 120, 212, 0.30);
 }
 
 .secondary-btn {
@@ -372,13 +376,13 @@ nav {
 .secondary-btn:hover {
     border-color: var(--primary);
 
-    background: rgba(79, 140, 255, 0.08);
+    background: rgba(0, 120, 212, 0.08);
 
     transform: translateY(-3px);
 }
 
 
-/* SOCIAL */
+/* ================= SOCIAL ================= */
 
 .social-links {
     display: flex;
@@ -418,7 +422,7 @@ nav {
 /* ================= TERMINAL ================= */
 
 .hero-terminal {
-    background: #0b1019;
+    background: #0A1424;
 
     border: 1px solid var(--border);
 
@@ -428,7 +432,7 @@ nav {
 
     box-shadow:
         0 30px 80px rgba(0, 0, 0, 0.35),
-        0 0 60px rgba(79, 140, 255, 0.06);
+        0 0 60px rgba(0, 120, 212, 0.07);
 
     animation: floating 5s ease-in-out infinite;
 }
@@ -456,7 +460,7 @@ nav {
 
     gap: 15px;
 
-    background: #111722;
+    background: #111C30;
 
     border-bottom: 1px solid var(--border);
 }
@@ -481,7 +485,7 @@ nav {
 
     border-radius: 50%;
 
-    background: #354052;
+    background: #34445E;
 }
 
 .terminal-body {
@@ -503,15 +507,15 @@ nav {
 }
 
 .code-purple {
-    color: #c084fc;
+    color: #7DD3FC;
 }
 
 .code-blue {
-    color: #60a5fa;
+    color: #60A5FA;
 }
 
 .code-green {
-    color: #86efac;
+    color: #86EFAC;
 }
 
 .terminal-status {
@@ -530,13 +534,13 @@ nav {
     width: 7px;
     height: 7px;
 
-    background: #4ade80;
+    background: var(--success);
 
     border-radius: 50%;
 
     margin-right: 7px;
 
-    box-shadow: 0 0 10px #4ade80;
+    box-shadow: 0 0 10px rgba(34, 197, 94, 0.7);
 }
 
 
@@ -607,8 +611,8 @@ nav {
     background:
         linear-gradient(
             180deg,
-            #0a0e16 0%,
-            #080b12 100%
+            #0D1729 0%,
+            #0B1220 100%
         );
 }
 
@@ -619,7 +623,7 @@ nav {
 }
 
 .section-heading > p:first-child {
-    color: var(--primary);
+    color: var(--primary-light);
 
     font-family: "JetBrains Mono", monospace;
 
@@ -639,7 +643,7 @@ nav {
 }
 
 .section-heading h2 span {
-    color: var(--primary);
+    color: var(--primary-light);
 }
 
 .section-description {
@@ -694,13 +698,13 @@ nav {
 .highlight-card:hover {
     transform: translateY(-5px);
 
-    border-color: rgba(79, 140, 255, 0.35);
+    border-color: rgba(0, 120, 212, 0.40);
 
     background: var(--card-hover);
 }
 
 .highlight-card i {
-    color: var(--primary);
+    color: var(--primary-light);
 
     font-size: 22px;
 
@@ -751,7 +755,9 @@ nav {
 .skill-category:hover {
     transform: translateY(-5px);
 
-    border-color: rgba(79, 140, 255, 0.3);
+    border-color: rgba(0, 120, 212, 0.35);
+
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.15);
 }
 
 .skill-icon {
@@ -765,11 +771,13 @@ nav {
     align-items: center;
     justify-content: center;
 
-    background: rgba(79, 140, 255, 0.1);
+    background: rgba(0, 120, 212, 0.10);
 
-    color: var(--primary);
+    color: var(--primary-light);
 
     margin-bottom: 18px;
+
+    font-size: 20px;
 }
 
 .skill-category h3 {
@@ -793,13 +801,46 @@ nav {
 
     border-radius: 6px;
 
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(255, 255, 255, 0.035);
 
     border: 1px solid var(--border);
 
     color: var(--text-secondary);
 
     font-size: 11px;
+
+    transition: var(--transition);
+}
+
+.skill-tags span:hover,
+.experience-tags span:hover,
+.project-tech span:hover {
+    border-color: rgba(0, 120, 212, 0.35);
+
+    color: var(--primary-light);
+
+    background: rgba(0, 120, 212, 0.06);
+}
+
+
+/* ================= AZURE TECHNOLOGY BADGES ================= */
+
+.azure-tech {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    color: var(--primary-light) !important;
+
+    border-color: rgba(0, 120, 212, 0.25) !important;
+
+    background: rgba(0, 120, 212, 0.07) !important;
+}
+
+.azure-tech i {
+    font-size: 12px;
 }
 
 
@@ -853,7 +894,7 @@ nav {
 
     border: 3px solid var(--bg);
 
-    box-shadow: 0 0 0 4px rgba(79, 140, 255, 0.15);
+    box-shadow: 0 0 0 4px rgba(0, 120, 212, 0.15);
 }
 
 .timeline-content {
@@ -869,13 +910,13 @@ nav {
 }
 
 .timeline-content:hover {
-    border-color: rgba(79, 140, 255, 0.3);
+    border-color: rgba(0, 120, 212, 0.35);
 
     transform: translateX(5px);
 }
 
 .timeline-date {
-    color: var(--primary);
+    color: var(--primary-light);
 
     font-size: 12px;
 
@@ -952,9 +993,9 @@ nav {
 .project-card:hover {
     transform: translateY(-6px);
 
-    border-color: rgba(79, 140, 255, 0.35);
+    border-color: rgba(0, 120, 212, 0.35);
 
-    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.20);
 }
 
 .project-top {
@@ -976,11 +1017,11 @@ nav {
     align-items: center;
     justify-content: center;
 
-    background: rgba(79, 140, 255, 0.1);
+    background: rgba(0, 120, 212, 0.10);
 
     border-radius: 10px;
 
-    color: var(--primary);
+    color: var(--primary-light);
 
     font-size: 20px;
 }
@@ -1053,7 +1094,7 @@ nav {
 .certificate-card:hover {
     transform: translateY(-5px);
 
-    border-color: rgba(79, 140, 255, 0.35);
+    border-color: rgba(0, 120, 212, 0.35);
 }
 
 .certificate-icon {
@@ -1067,15 +1108,15 @@ nav {
 
     border-radius: 10px;
 
-    background: rgba(79, 140, 255, 0.1);
+    background: rgba(0, 120, 212, 0.10);
 
-    color: var(--primary);
+    color: var(--primary-light);
 }
 
 .certificate-provider {
     font-size: 11px;
 
-    color: var(--primary);
+    color: var(--primary-light);
 
     text-transform: uppercase;
 
@@ -1119,6 +1160,12 @@ nav {
     border: 1px solid var(--border);
 
     border-radius: 14px;
+
+    transition: var(--transition);
+}
+
+.education-card:hover {
+    border-color: rgba(0, 120, 212, 0.30);
 }
 
 .education-icon {
@@ -1132,15 +1179,15 @@ nav {
 
     border-radius: 11px;
 
-    background: rgba(79, 140, 255, 0.1);
+    background: rgba(0, 120, 212, 0.10);
 
-    color: var(--primary);
+    color: var(--primary-light);
 
     font-size: 21px;
 }
 
 .education-card span {
-    color: var(--primary);
+    color: var(--primary-light);
 
     font-family: "JetBrains Mono", monospace;
 
@@ -1168,7 +1215,7 @@ nav {
     background:
         radial-gradient(
             circle at center,
-            rgba(79, 140, 255, 0.08),
+            rgba(0, 120, 212, 0.08),
             transparent 45%
         );
 }
@@ -1210,11 +1257,11 @@ nav {
 .contact-card:hover {
     transform: translateY(-4px);
 
-    border-color: rgba(79, 140, 255, 0.35);
+    border-color: rgba(0, 120, 212, 0.35);
 }
 
 .contact-card > i {
-    color: var(--primary);
+    color: var(--primary-light);
 
     font-size: 20px;
 }
@@ -1332,7 +1379,6 @@ footer p + p {
 
         gap: 40px;
     }
-
 }
 
 
@@ -1351,7 +1397,7 @@ footer p + p {
 
         width: 100%;
 
-        background: #0b1019;
+        background: #0B1220;
 
         border-bottom: 1px solid var(--border);
 
@@ -1404,7 +1450,6 @@ footer p + p {
     .contact-grid {
         grid-template-columns: 1fr;
     }
-
 }
 
 
@@ -1466,5 +1511,4 @@ footer p + p {
     .contact-card strong {
         word-break: break-word;
     }
-
 }
