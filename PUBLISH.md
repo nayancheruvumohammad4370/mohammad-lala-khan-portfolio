@@ -1,9 +1,19 @@
-# Publish this portfolio
+# Publish this portfolio with GitHub Pages
 
-1. Create a new GitHub repository, e.g. `n-mohammad-portfolio`.
-2. Upload `index.html`, `README.md`, and `.gitignore` to the root.
-3. Open **Settings → Pages**.
-4. Select **Deploy from a branch**, branch `main`, folder `/(root)`, then Save.
-5. GitHub Pages will show the live URL after deployment.
+This website is already stored in the public repository **mohammad-lala-khan-portfolio**. Do not create another repository or upload duplicate files.
 
-The site currently uses a designed initials portrait placeholder. Add your approved profile photo before publishing and replace the monogram block with the photo. Do not upload confidential client data, private PBIX files or raw customer data.
+## Enable GitHub Pages
+
+1. Open the repository: https://github.com/nayancheruvumohammad4370/mohammad-lala-khan-portfolio
+2. Select **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select branch **main** and folder **/(root)**, then click **Save**.
+5. Wait for the Pages deployment to finish. GitHub will display the published URL in the Pages settings.
+
+Expected URL: https://nayancheruvumohammad4370.github.io/mohammad-lala-khan-portfolio/
+
+## Before sharing publicly
+
+- Open the live site on desktop and mobile and check all navigation and project links.
+- Confirm the profile photo displays correctly.
+- Keep client-confidential data, raw customer data, private PBIX files, credentials and proprietary screenshots out of the public repository.
