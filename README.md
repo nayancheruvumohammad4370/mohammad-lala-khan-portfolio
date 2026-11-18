@@ -1,39 +1,38 @@
 # N. Mohammad Lala Khan — Portfolio
 
-**Azure Data Engineer | Power BI Developer | Data Analytics**
+**Azure Data Engineer | Data Analytics | Power BI**
 
-This repository contains the source for my personal portfolio website.
+Personal portfolio showcasing my professional experience, technical skills, certifications, and selected data projects.
 
-## Career
-- **Tata Consultancy Services (Mar 2022 – Mar 2026):** GE Healthcare and Tata Play project engagements, progressing across Power BI development, data analytics, data engineering and reporting.
-- **Bristlecone India Limited (Jun 2026 – Present):** Associate Visualization Specialist (Data Engineer), client Skyworks Solutions, Semiconductor Supply Chain domain.
+## Professional Experience
 
-## Featured work
-- GE Healthcare — Healthcare Service & Asset Analytics (professional project)
-- Tata Play — Subscriber, Revenue & Churn Analytics (professional project)
-- Skyworks Solutions — Semiconductor Supply Chain Analytics (professional project)
-- SQL Server → Azure Data Factory → ADLS Gen2 Migration (independent hands-on project)
-- NEXUS BANK Medallion Data Engineering (independent hands-on project)
-- Selected Power BI, Tableau and Python/Pandas/NumPy analysis projects
+- **Bristlecone India Limited** · Associate Visualization Specialist (Data Engineer) · June 2026–Present  
+  Client: Skyworks Solutions · Semiconductor Supply Chain
+- **Tata Consultancy Services (TCS)** · April 2022–March 2026  
+  Project engagements: GE Healthcare and Tata Play, covering SQL, Power BI, reporting, KPI analysis, subscriber and revenue analytics.
+
+## Featured Projects
+
+- [NEXUS BANK — Azure Data Engineering](https://github.com/nayancheruvumohammad4370/NEXUS-BANK-DATA-ENGINEERING)  
+  Ongoing banking data platform using SQL Server, Azure Data Factory, ADLS Gen2, Azure Databricks and PySpark. Bronze ingestion and orchestration are implemented; Silver and Gold development is ongoing.
+- [SQL Server → ADF → ADLS Gen2 Migration](https://github.com/nayancheruvumohammad4370/SQL-SERVER-ADF-ADLS-MIGRATION)  
+  Hands-on migration project demonstrating SQL Server connectivity, Self-hosted Integration Runtime, a 10,000-row DimCustomer full load to Bronze Parquet, and watermark-based incremental loading.
+- [Power BI, SQL, Python and Tableau projects](https://github.com/nayancheruvumohammad4370?tab=repositories)
 
 ## Certifications
-- PL-300 — Microsoft Power BI Data Analyst Associate
-- DP-700 — Microsoft Fabric Data Engineer Associate
-- DP-900 — Microsoft Azure Data Fundamentals
-- Generative Artificial Intelligence (AI)
+
+- Microsoft Certified: Power BI Data Analyst Associate (PL-300)
+- Microsoft Certified: Fabric Data Engineer Associate (DP-700)
+- Microsoft Certified: Azure Data Fundamentals (DP-900)
 - Databricks Fundamentals
+- Generative AI Foundation
 
-## Publish with GitHub Pages
-1. Create a repository named `n-mohammad-portfolio`.
-2. Upload `index.html` and this `README.md` to the repository root.
-3. Open **Settings → Pages**.
-4. Choose **Deploy from a branch**, select `main` and `/(root)`, then Save.
+## Contact
 
-## Before making public
-- Add the approved profile photo and update the hero portrait area.
-- Confirm the exact certificate titles/issuers against certificate documents.
-- Keep client-confidential data, raw customer data, private PBIX files, credentials and proprietary screenshots out of the public repository.
-- Review the timeline wording and exact promotion date before publishing.
+- [LinkedIn](https://www.linkedin.com/in/mrkhan111/)
+- [GitHub](https://github.com/nayancheruvumohammad4370)
+- [Email](mailto:nayancheruvumohammad@gmail.com)
 
+---
 
-The `assets/profile-photo.png` file is the profile image used in the hero section. Keep this file alongside `index.html` when publishing.
+*Engineering data. Enabling decisions.*
