@@ -1,0 +1,16 @@
+# Keep private data and credentials out of Git
+.env
+.env.*
+!.env.example
+*.pbix
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.bak
+*.mdf
+*.ldf
+*.pfx
+*.key
+*.pem
+local.settings.json
